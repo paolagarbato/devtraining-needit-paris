@@ -2577,9 +2577,337 @@
     "width" : "100%",
     "background" : "rgb(var(--now-color--neutral-1))"
   }
+}, {
+  "elementId" : "next_needit_row",
+  "elementLabel" : "Next Needit row",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "next_needit",
+      "elementLabel" : "Next Needit",
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "my_next_needit_record",
+          "elementLabel" : "My Next NeedIt record",
+          "propertyValues" : {
+            "table" : {
+              "type" : "JSON_LITERAL",
+              "value" : "x_58872_needit_needit"
+            },
+            "sysId" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "my_next_needit", "results", "0", "sys_id", "value" ]
+              }
+            },
+            "workspaceConfigId" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "primaryValue" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "add_user_to_text_string_1", "output" ]
+              }
+            },
+            "subHeadingValue" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "@data.next_needit_form.nowRecordCommonHeader.primaryValue",
+                "comment" : ""
+              }
+            },
+            "secondaryItems" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "next_needit_form", "nowRecordCommonHeader", "secondaryItems" ]
+              }
+            },
+            "headerImageItem" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "hideTagsValue" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "recordTags" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "4d537db98a05adaf55f9e219c50d1358",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : {
+            "border-color" : "RGB(var(--now-color--neutral-5))",
+            "border-width" : "var(--now-static-space--xxs)",
+            "border-style" : "solid",
+            "background" : "#a5c7d0"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "isInline" : null,
+            "items" : [{"element_id":"my_next_needit_record","styles":{}}],
+            "root" : null,
+            "rules" : null,
+            "styles" : {"flex-direction":"column"},
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          },
+          "version" : "3.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"next_needit","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
 } ]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
+        <data>[ {
+  "definition" : {
+    "id" : "b997a84053021010cbc2ddeeff7b1228",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "my_next_needit",
+  "elementLabel" : "My Next NeedIt",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_58872_needit_needit"
+    },
+    "encodedQuery" : {
+      "type" : "CLIENT_TRANSFORM",
+      "transform" : {
+        "operands" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "JSON_LITERAL",
+            "value" : "active=true^u_requested_forDYNAMICbdcb83a85f220100a9ad2572f2b4773d^u_when_needed&gt;javascript:gs.endOfToday()"
+          } ]
+        },
+        "operator" : "CONCAT"
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "u_when_needed,sys_id,short_description,number"
+    },
+    "orderBy" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "sortType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "asc"
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "offset" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "queryCategory" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "dc6e87a5232200100e4bc50947bf654b",
+    "type" : "CLIENT_STATE"
+  },
+  "elementId" : "next_needit_form",
+  "elementLabel" : "Next NeedIt Form",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_58872_needit_needit"
+    },
+    "sysId" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "my_next_needit", "results", "0", "sys_id", "value" ]
+      }
+    },
+    "actionConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "headerConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "ribbonConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "viewRuleConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "highlightedValueConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "view" : {
+      "type" : "JSON_LITERAL",
+      "value" : "default view"
+    },
+    "forcedViewName" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "query" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "showActivityStreamInDetails" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "detailsContext" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "activityLogs" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "c8a6db49070701107fd8f19d7c1ed027",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "add_user_to_text_string_1",
+  "elementLabel" : "Add User to Text String 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "userFullName" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user", "fullName" ],
+        "category" : "session"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
         <dispatched_events>dcf1eac5074301107fd8f19d7c1ed0b2</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events>7b53070507c301107fd8f19d7c1ed038</handled_events>
@@ -2619,7 +2947,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"image_2","styles":{}},{"element_id":"header_row","styles":{}},{"element_id":"reports_row","styles":{}},{"element_id":"list_row","styles":{}}],
+    "items" : [{"element_id":"image_2","styles":{}},{"element_id":"header_row","styles":{}},{"element_id":"next_needit_row","styles":{}},{"element_id":"reports_row","styles":{}},{"element_id":"list_row","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column"},
@@ -2636,6 +2964,9 @@
   "comment" : ""
 }, {
   "message" : " Tooltip label:",
+  "comment" : ""
+}, {
+  "message" : "@data.next_needit_form.nowRecordCommonHeader.primaryValue",
   "comment" : ""
 }, {
   "message" : "Active NeedIts",
@@ -2717,13 +3048,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-20 19:36:38</sys_created_on>
         <sys_id>ce96ed24078701107fd8f19d7c1ed0e4</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_ce96ed24078701107fd8f19d7c1ed0e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-22 16:09:09</sys_updated_on>
+        <sys_updated_on>2022-04-22 17:14:24</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
